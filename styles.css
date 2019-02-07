@@ -23,7 +23,7 @@ header{
 }
 
 header nav{
-    display: none;
+    display:none;
 }
 
 header nav a:nth-child(1){
@@ -56,6 +56,9 @@ header nav a{
     background-color: white;
     grid-area: sidebar;  
     padding: 30px 0;
+    background-image: url(https://vignette.wikia.nocookie.net/jjba/images/8/87/DioP2.png/revision/latest/scale-to-width-down/270?cb=20170521193224);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 .sidebar nav{
@@ -77,7 +80,10 @@ main{
 /* Tablet */
 @media(min-width: 768px){
     header nav{
-        display: flex;
+            width: 550px;
+            align-items: center;
+            display: flex;
+            justify-content:space-evenly ;
     }
     .menu-hamburguer{
         display: none;
@@ -92,10 +98,21 @@ main{
         "main main main . sidebar";
         }
 
+        header nav{
+            width: 230px;
+            align-items: center;
+            display: flex;
+            justify-content:space-evenly ;
+            
+        }
+
         .sidebar{
             border-radius: 25px;
             box-shadow: 1px 1px 15px 8px rgba(0,0,0,0.1);
             margin: 5px;
+            background-image: url(https://vignette.wikia.nocookie.net/jjba/images/8/87/DioP2.png/revision/latest/scale-to-width-down/270?cb=20170521193224);
+            background-repeat: no-repeat;
+            background-size:auto;
         }
 
         .sidebar nav{
